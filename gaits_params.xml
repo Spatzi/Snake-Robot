@@ -1,0 +1,81 @@
+<parameters>
+	<gait id="Rolling">
+		<joint>
+			<freq_sim> 5 </freq_sim>
+			<amp_v_sim> 15 </amp_v_sim>
+			<amp_h_sim> 15 </amp_h_sim>
+			<phase_v_sim> 0 </phase_v_sim>
+			<phase_h_sim> 0 </phase_h_sim>
+		</joint>
+	</gait>
+
+	<gait id="Forward">
+		<joint>
+			<freq_sim> 5 </freq_sim>
+			<amp_v_sim> 15 </amp_v_sim>
+			<amp_h_sim> 0 </amp_h_sim>
+			<phase_v_sim> 120 </phase_v_sim>
+			<phase_h_sim> 60 </phase_h_sim>
+		</joint>
+	</gait>
+
+	<gait id="Reset">
+		<joint>
+			<freq_sim> 0 </freq_sim>
+			<amp_v_sim> 0 </amp_v_sim>
+			<amp_h_sim> 0 </amp_h_sim>
+			<phase_v_sim> 0 </phase_v_sim>
+			<phase_h_sim> 0 </phase_h_sim>
+		</joint>
+	</gait>
+
+	<gait id="Hold">
+		<joint>
+			<freq_sim> 0 </freq_sim>
+		</joint>
+	</gait>
+
+	<gait id="Individual Control">
+		<joint id="1">
+			<freq_sim> 0 </freq_sim>
+			<amp_v_sim> 0 </amp_v_sim>
+			<phase_v_sim> 0 </phase_v_sim>
+		</joint>
+		<joint id="2">
+			<freq_sim> 0 </freq_sim>
+			<amp_h_sim> 0 </amp_h_sim>
+			<phase_h_sim> 0 </phase_h_sim>
+		</joint>
+		<joint id="3">
+			<freq_sim> 0 </freq_sim>
+			<amp_v_sim> 0 </amp_v_sim>
+			<phase_v_sim> 0 </phase_v_sim>
+		</joint>
+		<joint id="4">
+			<freq_sim> 5 </freq_sim>
+			<amp_h_sim> 15 </amp_h_sim>
+			<phase_h_sim> 0 </phase_h_sim>
+		</joint>
+		<joint id="5">
+			<freq_sim> 0 </freq_sim>
+			<amp_v_sim> 0 </amp_v_sim>
+			<phase_v_sim> 0 </phase_v_sim>
+		</joint>
+		<joint id="6">
+			<freq_sim> 0 </freq_sim>
+			<amp_h_sim> 0 </amp_h_sim>
+			<phase_h_sim> 0 </phase_h_sim>
+		</joint>
+		<joint id="7">
+			<freq_sim> 3 </freq_sim>
+			<amp_v_sim> 20 </amp_v_sim>
+			<phase_v_sim> 0 </phase_v_sim>
+		</joint>
+		<joint id="8">
+			<freq_sim> 0 </freq_sim>
+			<amp_h_sim> 0 </amp_h_sim>
+			<phase_h_sim> 0 </phase_h_sim>
+		</joint>
+	</gait>
+</parameters>
+
